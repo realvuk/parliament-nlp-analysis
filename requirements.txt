@@ -1,0 +1,8 @@
+Requirements
+
+pandas
+matplotlib
+wordcloud
+jupyter
+gensim
+stanza
