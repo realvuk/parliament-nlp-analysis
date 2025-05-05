@@ -80,15 +80,8 @@ python -m stanza.download sr
 
 ---
 
-## Next Steps (Ideas)
+## Plots
 
-- Add **NER (Named Entity Recognition)** using spaCy or regex
-    
-- Improve **sentiment** with a larger lexicon or pretrained classifier
-    
-- Create **party-level** summaries using metadata
-    
-- Visualize **topic/sentiment trends over time**
     
 
 ---
