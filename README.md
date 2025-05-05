@@ -81,7 +81,8 @@ python -m stanza.download sr
 ---
 
 ## Plots
-
+![Wordcloud of Serbian Parliament](wordcloud.png)
+![Top 10 Speakers](speech.png)
     
 
 ---
