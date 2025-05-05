@@ -1,0 +1,51 @@
+---
+title: "Serbian Parliament NLP analysis"
+author: "Vuk Dinic"
+date: "2025-05-05"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Serbian Parliament NLP analysis
+
+## Import data
+```{r cars}
+wordcloud <- read.csv("/home/vuk/Documents/0 Data Science/parliament_nlp_analysis/notebooks/word_frequencies.csv")
+```
+
+```{r}
+library(wordcloud2)
+```
+
+```{r}
+wordcloud2(data = wordcloud)
+```
+
+```{r}
+speech <- read.csv("/home/vuk/Documents/0 Data Science/parliament_nlp_analysis/notebooks/speech_lengths.csv")
+```
+
+```{r}
+library(dplyr)
+library(ggplot2)
+```
+
+```{r}
+top10_speakers <- speech %>%
+  group_by(speaker) %>%
+  summarise(total_speech_len = sum(speech_len, na.rm = TRUE)) %>%
+  arrange(desc(total_speech_len)) %>%
+  slice_head(n = 10)
+```
+
+```{r}
+ggplot(top10_speakers, aes(x = reorder(speaker, total_speech_len), y = total_speech_len)) +
+  geom_bar(stat = "identity", fill = "skyblue") +
+  coord_flip() +  # Optional: horizontal bars for readability
+  theme_classic() +
+  labs(x = "Speaker", y = "Total Speech Length", title = "Top 10 Speakers by Speech Length")
+```
+
