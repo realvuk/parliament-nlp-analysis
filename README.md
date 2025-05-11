@@ -75,5 +75,7 @@ This project explores political discourse in Serbia using transcripts from Natio
 | **8**   | narodni, poslanik, amandman, glasanje, zakon                             | **Legislative Process & Amendments**        | Focused on voting, proposing laws, and parliamentary decision-making. Core legislative procedures.                       |
 | **9**   | poslovnik, replika, vreme, kazati                                        | **Debate Rules & Floor Management**         | Deals with speaking time, requests, and adherence to parliamentary rulebook — classic floor debate content.              |
 
+## Sentiment analsys
+![Emotions SNS(https://raw.githubusercontent.com/realvuk/serbian_parliament_nlp_analysis/main/figures/emotions_sns.png)
 
-For other plots, check the figures directory
+**For other plots, check the figures directory**
