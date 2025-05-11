@@ -18,6 +18,26 @@ This project explores political discourse in Serbia using transcripts from Natio
 - Sentiment trends (WIP)
 - Metadata-enriched political discourse
 
+## Top Speakers
+
+| RANK | SPEAKER              | NUM OF SPEECHES | PARTY                 | Note           |
+| ---- | -------------------- | --------------- | --------------------- | -------------- |
+| 1    | ANA BRNABIĆ          | 1762            | SNS                   | PREDSEDAVAJUĆA |
+| 2    | SNEŽANA PAUNOVIĆ     | 623             | SPS                   | PREDSEDAVAJUĆA |
+| 3    | MARINA RAGUŠ         | 454             | SNS                   | PREDSEDAVAJUĆA |
+| 4    | MILENKO JOVANOV      | 328             | SNS                   |                |
+| 5    | ALEKSANDAR JOVANOVIĆ | 268             | Narodni pokret Srbije |                |
+| 6    | STOJAN RADENOVIĆ     | 258             | SNS                   |                |
+| 7    | RADOMIR LAZOVIĆ      | 125             | ZLF                   |                |
+| 8    | SRĐAN MILIVOJEVIĆ    | 106             | DS                    |                |
+| 9    | MILOŠ PARANDILOVIĆ   | 95              | NLS                   |                |
+| 10   | ZORAN LUTOVAC        | 90              | DS                    |                |
+| 11   | MARINIKA TEPIĆ       | 86              | SSP                   |                |
+| 12   | MILOŠ VUČEVIĆ        | 79              | SNS                   | PRIME MINISTER |
+| 13   | BORISLAV NOVAKOVIĆ   | 77              | Narodni pokret Srbije |                |
+| 14   | DANIJELA NESTOROVIĆ  | 74              | Narodni pokret Srbije |                |
+| 15   | ELVIRA KOVAČ         | 57              | SVM-VMSZ              | PREDSEDAVAJUĆA |
+
 ## Topics
 
 | Topic # | Top Words                                                                | Probable Theme                              | Interpretation                                                                                                           |
