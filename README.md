@@ -19,6 +19,7 @@ This project explores political discourse in Serbia using transcripts from Natio
 - Metadata-enriched political discourse
 
 ## Topics
+
 | Topic # | Top Words                                                                | Probable Theme                              | Interpretation                                                                                                           |
 | ------- | ------------------------------------------------------------------------ | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | **0**   | zakon, godina, srbija, imati, hteti, ministarstvo, obrazovanje, građanin | **Public Policy & Legislation**             | General discussion of laws, government ministries, and citizens’ rights, likely around national policy or legal reforms. |
