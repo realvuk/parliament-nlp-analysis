@@ -38,6 +38,25 @@ This project explores political discourse in Serbia using transcripts from Natio
 | 14   | DANIJELA NESTOROVIĆ  | 74              | Narodni pokret Srbije |                |
 | 15   | ELVIRA KOVAČ         | 57              | SVM-VMSZ              | PREDSEDAVAJUĆA |
 
+## Speech length (No of characters)
+| RANK | SPEAKER                     | SPEECH LEN (CHAR) | PARTY                 | Note           |
+| ---- | --------------------------- | ----------------- | --------------------- | -------------- |
+| 1    | ANA BRNABIĆ                 | 799335            | SNS                   | PREDSEDAVAJUĆA |
+| 2    | MILENKO JOVANOV             | 696929            | SNS                   |                |
+| 3    | MILOŠ VUČEVIĆ               | 482097            | SNS                   | PRIME MINISTER |
+| 4    | SNEŽANA PAUNOVIĆ            | 470949            | SPS                   | PREDSEDAVAJUĆA |
+| 5    | DANIJELA NESTOROVIĆ         | 283581            | Narodni pokret Srbije |                |
+| 6    | DUBRAVKA ĐEDOVIĆ HANDANOVIĆ | 262915            | SNS                   | MINISTER       |
+| 7    | ALEKSANDAR MARTINOVIĆ       | 218080            | SNS                   | MINISTER       |
+| 8    | SINIŠA MALI                 | 213075            | SNS                   |                |
+| 9    | ŽIVOTA STARČEVIĆ            | 151432            | JS                    |                |
+| 10   | MARINA RAGUŠ                | 146521            | SNS                   | PREDSEDAVAJUĆA |
+| 11   | ALEKSANDAR JOVANOVIĆ        | 144590            | Narodni pokret Srbije |                |
+| 12   | MIROSLAV ALEKSIĆ            | 141545            | Narodni pokret Srbije |                |
+| 13   | RADOMIR LAZOVIĆ             | 138195            | ZLF                   |                |
+| 14   | MARIJAN RISTIČEVIĆ          | 133678            | SNS                   |                |
+| 15   | ALEKSANDAR VULIN            | 133602            | PS                    | MINISTER       |
+
 ## Topics
 
 | Topic # | Top Words                                                                | Probable Theme                              | Interpretation                                                                                                           |
