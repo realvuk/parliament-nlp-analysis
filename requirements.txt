@@ -2,7 +2,9 @@ Requirements
 
 pandas
 matplotlib
-wordcloud
-jupyter
+seaborn
+numpy
 gensim
 stanza
+wordcloud
+pillow

@@ -3,11 +3,13 @@ from pathlib import Path
 import json
 import re
 
-RAW_DIR = "raw_docs"
-OUTPUT_FILE = "parsed_data/speeches.json"
+RAW_DIR = "/home/vuk/Documents/0 Data Science/parliament_nlp_analysis/data/raw/txt"
+OUTPUT_FILE = "/home/vuk/Documents/0 Data Science/parliament_nlp_analysis/speeches_j.json"
 parsed = []
 
-speaker_line_pattern = re.compile(r"^([А-ЯЉЊЂЋЏŠĐČĆŽ\s]+):\s*(.*)$")
+speaker_line_pattern = re.compile(
+    r"^([A-ZČĆŽŠĐАБВГДЂЕЖЗИЈКЛЉМНЊОПРСТЋУФХЦЧЏШ\s]+):\s*(.*)$"
+)
 
 for filepath in Path(RAW_DIR).rglob("*.txt"):
     print(f"Processing {filepath}...")
