@@ -57,6 +57,9 @@ This project explores political discourse in Serbia using transcripts from Natio
 | 14   | MARIJAN RISTIČEVIĆ          | 133678            | SNS                   |                |
 | 15   | ALEKSANDAR VULIN            | 133602            | PS                    | MINISTER       |
 
+## Wordcloud
+![Serbia Wordcloud](https://raw.githubusercontent.com/realvuk/serbian_parliament_nlp_analysis/main/figures/wordcloud_serbia.png)
+
 ## Topics
 
 | Topic # | Top Words                                                                | Probable Theme                              | Interpretation                                                                                                           |
@@ -71,3 +74,6 @@ This project explores political discourse in Serbia using transcripts from Natio
 | **7**   | godina, evro, milion, milijarda                                          | **Budget & Economy**                        | Financial discussion — budget, expenditures, and national economic outlook.                                              |
 | **8**   | narodni, poslanik, amandman, glasanje, zakon                             | **Legislative Process & Amendments**        | Focused on voting, proposing laws, and parliamentary decision-making. Core legislative procedures.                       |
 | **9**   | poslovnik, replika, vreme, kazati                                        | **Debate Rules & Floor Management**         | Deals with speaking time, requests, and adherence to parliamentary rulebook — classic floor debate content.              |
+
+
+For other plots, check the figures directory
